@@ -1,0 +1,36 @@
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  padding: 1.5rem;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #222;
+  padding: 2rem;
+  /* height: 80vh; */
+  margin: 1rem;
+}
+
+@media screen and (min-width: 678px) {
+  .container {
+    margin: 0 25%;
+  }
+}
+
+.capitalize-title {
+  text-align:center;
+  color:#fff; 
+  text-transform:capitalize"
+}

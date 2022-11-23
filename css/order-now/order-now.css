@@ -1,0 +1,44 @@
+.order-now-block {
+  margin: 2rem;
+}
+
+.details-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.details-grid img {
+  width: 100%;
+}
+
+@media screen and (min-width: 678px) {
+  .details-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .details-grid img {
+    height: 500px;
+  }
+}
+
+.buy-now-container {
+  display: flex;
+}
+
+.btn-buy-now {
+  width: 50%;
+  margin: 3rem auto 0;
+  box-shadow: 0 0 0 5px;
+  transition: all 0.3s;
+}
+
+.btn-buy-now:hover,
+.btn-buy-now:focus {
+  color: #fff;
+  background: rgb(255, 38, 0);
+}
+
+.price-tag {
+  font-weight: 700;
+  color: rgb(255, 38, 0);
+}
